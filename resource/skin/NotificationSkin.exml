@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NotificationSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="691" height="45">
+    <e:Image source="top_bar_png" />
+    <e:Image source="top_bar_png" />
+    <e:Label id="txt_msg" text="提示：" horizontalCenter="0" verticalCenter="0" size="28" fontFamily="黑体"  textColor="0xffffff" verticalAlign="middle"/>
+</e:Skin>

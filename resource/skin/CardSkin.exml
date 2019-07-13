@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        states="c1_1,c1_2,c1_3,c2_1,c2_2,c2_3,c3_1,c3_2,c3_3,c4_1,c4_2,c4_3" width="76" height="110" height.c1_1="110">
+        <e:Image id="img_bg" horizontalCenter="0" verticalCenter="0" source.c1_1="card_face_2_png"
+                 source.c1_2="card_face_1_png" source.c1_3="card_face_1_png" scaleX.c1_3="0.58" scaleY.c1_3="0.58"
+                 source.c2_1="card_bg_1_png" source.c2_2="card_face_3_png" source.c2_3="card_face_3_png"
+                 source.c3_1="card_bg_2_png" source.c3_2="card_face_1_png" scaleX.c3_2="0.58" scaleY.c3_2="0.58"
+                 source.c3_3="card_face_1_png" scaleX.c3_3="0.58" scaleY.c3_3="0.58" source.c4_1="card_bg_1_png"
+                 scaleX.c4_1="-1" source.c4_2="card_face_3_png" source.c4_3="card_face_3_png" verticalCenter.c1_1="0" />
+        <e:Image id="img_serialNo" horizontalCenter="0" verticalCenter="0" horizontalCenter.c1_1="0"
+                 verticalCenter.c1_1="12" horizontalCenter.c1_2="0" verticalCenter.c1_2="-14" scaleX.c1_3="0.58"
+                 scaleY.c1_3="0.58" horizontalCenter.c1_3="0" verticalCenter.c1_3="-7.5" visible.c2_1="false"
+                 rotation.c2_2="-90" scaleX.c2_2="0.58" scaleY.c2_2="0.58" horizontalCenter.c2_2="0.5"
+                 verticalCenter.c2_2="-8" rotation.c2_3="-90" scaleX.c2_3="0.58" scaleY.c2_3="0.58"
+                 horizontalCenter.c2_3="0.5" verticalCenter.c2_3="-8" visible.c3_1="false" rotation.c3_2="180"
+                 scaleX.c3_2="0.58" scaleY.c3_2="0.58" horizontalCenter.c3_2="0" verticalCenter.c3_2="-8.5"
+                 rotation.c3_3="180" scaleX.c3_3="0.58" scaleY.c3_3="0.58" horizontalCenter.c3_3="-0.5"
+                 verticalCenter.c3_3="-8.5" visible.c4_1="false" scaleX.c4_2="0.58" scaleY.c4_2="0.58"
+                 rotation.c4_2="90" horizontalCenter.c4_2="0.5" verticalCenter.c4_2="-8" scaleX.c4_3="0.58"
+                 scaleY.c4_3="0.58" rotation.c4_3="90" horizontalCenter.c4_3="0.5" verticalCenter.c4_3="-8" />
+        <e:Image id="img_wild" source="card_wild_png" includeIn="c1_1,c1_3" horizontalCenter="0" verticalCenter="0"
+                 horizontalCenter.c1_1="22" verticalCenter.c1_1="-18.5" visible="false" scaleX.c1_3="0.4"
+                 scaleY.c1_3="0.4" horizontalCenter.c1_3="12.5" verticalCenter.c1_3="-23.5" scaleX.c1_1="0.7"
+                 scaleY.c1_1="0.7" />
+        <!--<e:Image id="mask_card" horizontalCenter="{img_bg.horizontalCenter}"
+                     verticalCenter="{img_bg.verticalCenter}" includeIn="c1_1" source="card_face_2_png" visible="false" />
+        -->
+        <e:Image id="mask_card" horizontalCenter="{img_bg.horizontalCenter}" verticalCenter="{img_bg.verticalCenter}"
+                 source.c1_1="card_face_2_png" source.c1_2="card_face_1_png" source.c1_3="card_face_1_png"
+                 scaleX.c1_3="0.58" scaleY.c1_3="0.58" source.c2_1="card_bg_1_png" source.c2_2="card_face_3_png"
+                 source.c2_3="card_face_3_png" source.c3_1="card_bg_2_png" source.c3_2="card_face_1_png"
+                 scaleX.c3_2="0.58" scaleY.c3_2="0.58" source.c3_3="card_face_1_png" scaleX.c3_3="0.58"
+                 scaleY.c3_3="0.58" source.c4_1="card_bg_1_png" scaleX.c4_1="-1" source.c4_2="card_face_3_png"
+                 source.c4_3="card_face_3_png" verticalCenter.c1_1="0" visible="false" />
+        <e:Rect id="rect_gary" mask="{mask_card}" width="100%" height="100%"
+                horizontalCenter="{img_bg.horizontalCenter}" verticalCenter="{img_bg.verticalCenter}" includeIn="c1_1"
+                fillAlpha="0.3" visible="false" />
+        <e:Rect id="rect_light" mask="{mask_card}" width="100%" height="100%"
+                horizontalCenter="{img_bg.horizontalCenter}" verticalCenter="{img_bg.verticalCenter}" visible="false"
+                fillColor="0x000000" fillAlpha="0" />
+</e:Skin>

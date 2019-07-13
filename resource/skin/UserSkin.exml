@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UserSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="112" height="155">
+    <e:Group width="112" height="155">
+        <e:Image id="img_mask" source="user_headbg_png" x="21" y="0" />
+        <e:Image id="img_head" mask="{img_mask}" width="71" height="71" x="21" y="0" />
+        <e:Image source="user_score_png" y="90.33" x="-4.34" />
+        <e:Label id="txt_nick" y="75.92" size="16" fontFamily="黑体" textAlign="center" textColor="0xffffff" height="16"
+                 horizontalCenter="0" />
+        <e:Label id="txt_score" text="000000" size="22" fontFamily="黑体" verticalAlign="middle" textAlign="center"
+                 x="42.17" y="101.22000000000003" width="62" textColor="0xefd065" height="22" anchorOffsetX="0" />
+        <e:Image source="user_zhuang_png" y="48.8" visible="{isBanker}" horizontalCenter="0.5" />
+        <!--<e:Image source="user_zhuang_png" y="-20" right="0" visible="{isBanker}" />
+        -->
+        <e:Image source="{lack}" y="-20" right="0" visible="true" />
+        <!--<e:Image source="show_lack_1_png" y="-20" right="0" visible="true" />
+        -->
+    </e:Group>
+    <e:Group id="g_playerMask" width="112" height="155" visible="false">
+        <e:Image id="img_maskC" source="user_headbg_png" x="21" y="0" />
+        <e:Image id="img_headC" mask="{img_maskC}" width="71" height="71" x="21" y="0" />
+        <e:Image source="user_score_png" y="90.33" x="-4.34" />
+        <e:Label id="txt_nickC" y="75.92000000000002" size="16" fontFamily="黑体" textAlign="center" textColor="0xffffff"
+                 height="16" horizontalCenter="0" />
+        <e:Image source="user_zhuang_png" y="48.8" visible="{isBanker}" horizontalCenter="0.5" />
+        <e:Image source="{lack}" y="-20" right="0" visible="true" />
+    </e:Group>
+    <e:Rect id="rect_offLine" width="100%" height="100%" mask="{g_playerMask}" alpha="1" fillColor="0x000000"
+            fillAlpha="0.6" visible="false" />
+    <e:Image id="txt_offLine" y="13.3" horizontalCenter="0.5" source="user_offLine_png" visible="false" />
+    <e:Image id="img_voice" top="2" left="20" visible="false" />
+</e:Skin>

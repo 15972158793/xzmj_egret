@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatSkin" width="1206" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <w:Config id="160067bc919" />
+    <e:Rect id="rect_touch" width="1206" height="750" fillAlpha="0.5" verticalCenter="0" horizontalCenter="0" />
+    <e:Group id="box" horizontalCenter="0" verticalCenter="0">
+        <e:Image horizontalCenter="0" source="chat_face_bg_png" />
+        <e:Group id="g_talk" horizontalCenter="0.5" verticalCenter="18" visible="false">
+            <e:Scroller height="336" width="704">
+                <e:List id="list_talk" left="0" top="0">
+                    <e:itemRendererSkinName>
+                        <e:Skin width="704" height="42">
+	<e:Image source="texture2_json.chat_item_bg_png"/>
+                            <e:Label text="{data.lb}" size="30" fontFamily="黑体" verticalCenter="0" left="10" right="10"
+                                     textColor="0xdad8d9" />
+                        </e:Skin>
+                    </e:itemRendererSkinName>
+                    <e:ArrayCollection>
+                        <e:Array>
+                            <e:Object lb="呵呵哒呵呵哒呵呵哒呵呵哒" />
+                            <e:Object lb="呵呵哒呵呵哒呵呵哒呵呵哒" />
+                            <e:Object lb="呵呵哒呵呵哒呵呵哒呵呵哒" />
+                            <e:Object lb="呵呵哒呵呵哒呵呵哒呵呵哒" />
+                            <e:Object lb="呵呵哒呵呵哒呵呵哒呵呵哒" />
+                            <e:Object lb="呵呵哒呵呵哒呵呵哒呵呵哒" />
+                            <e:Object lb="呵呵哒呵呵哒呵呵哒呵呵哒" />
+                            <e:Object lb="呵呵哒呵呵哒呵呵哒呵呵哒" />
+                            <e:Object lb="呵呵哒呵呵哒呵呵哒呵呵哒" />
+                            <e:Object lb="呵呵哒呵呵哒呵呵哒呵呵哒" />
+                            <e:Object lb="呵呵哒呵呵哒呵呵哒呵呵哒" />
+                            <e:Object lb="呵呵哒呵呵哒呵呵哒呵呵哒" />
+                            <e:Object lb="呵呵哒呵呵哒呵呵哒呵呵哒" />
+                            <e:Object lb="呵呵哒呵呵哒呵呵哒呵呵哒" />
+                            <e:Object lb="呵呵哒呵呵哒呵呵哒呵呵哒" />
+                            <e:Object lb="呵呵哒呵呵哒呵呵哒呵呵哒" />
+                        </e:Array>
+                    </e:ArrayCollection>
+                    <e:layout>
+                        <e:VerticalLayout gap="7" />
+                    </e:layout>
+                </e:List>
+            </e:Scroller>
+        </e:Group>
+        <e:Group id="g_face" horizontalCenter="0" verticalCenter="0" visible="false">
+            <e:Image source="chat_face_bg1_png" horizontalCenter="0.5" verticalCenter="20" />
+            <e:Group id="faceGroup" scaleX="0.65" scaleY="0.65" y="41" horizontalCenter="0.5">
+                <e:Image source="face1_png" />
+                <e:Image source="face2_png" />
+                <e:Image source="face3_png" />
+                <e:Image source="face4_png" />
+                <e:Image source="face5_png" />
+                <e:Image source="face6_png" />
+                <e:Image source="face7_png" />
+                <e:Image source="face8_png" />
+                <e:Image source="face9_png" />
+                <e:Image source="face10_png" />
+                <e:Image source="face11_png" />
+                <e:Image source="face12_png" />
+                <e:Image source="face13_png" />
+                <e:Image source="face14_png" />
+                <e:Image source="face15_png" />
+                <e:Image source="face16_png" />
+                <e:Image source="face17_png" />
+                <e:Image source="face18_png" />
+                <e:Image source="face19_png" />
+                <e:Image source="face20_png" />
+                <e:layout>
+                    <e:TileLayout requestedColumnCount="5" requestedRowCount="4" verticalGap="0" horizontalGap="90" />
+                </e:layout>
+            </e:Group>
+        </e:Group>
+        <e:Group y="7" horizontalCenter="0">
+            <e:RadioButton id="rbtn_talk" y="0" x="0" groupName="chat">
+                <e:Skin currentState="up" states="up,down" width="366" height="57">
+                    <e:Image source="chat_bg1_png" includeIn="down" />
+                    <e:Image source="chat_title_talk_png" includeIn="down" verticalCenter="0" horizontalCenter="0" />
+                    <e:Image source="chat_bg4_png" includeIn="up" />
+                    <e:Image source="chat_title_talk2_png" includeIn="up" horizontalCenter="0" verticalCenter="0" />
+                </e:Skin>
+            </e:RadioButton>
+            <e:RadioButton id="rbtn_face" y="0" x="0" groupName="chat">
+                <e:Skin currentState="up" states="up,down" width="366" height="57">
+                    <e:Image includeIn="down" source="chat_bg3_png" />
+                    <e:Image source="chat_title_face2_png" includeIn="down" verticalCenter="0" horizontalCenter="0" />
+                    <e:Image includeIn="up" source="chat_bg2_png" />
+                    <e:Image source="chat_title_face_png" includeIn="up" verticalCenter="0" horizontalCenter="0" />
+                </e:Skin>
+            </e:RadioButton>
+            <e:layout>
+                <e:HorizontalLayout gap="-1" />
+            </e:layout>
+        </e:Group>
+    </e:Group>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TalkSkin" xmlns:e="http://ns.egret.com/eui" states="seat1,seat2,seat3,seat4" width="244" height="118">
+    <e:Image horizontalCenter="0" verticalCenter="0"  source.seat1="chat_box2_png" source.seat2="chat_box1_png" scaleX.seat2="-1" source.seat3="chat_box1_png" source.seat4="chat_box1_png"/>
+    <e:Label id="txt_content" size="22" fontFamily="黑体" width="199" textColor="0xffffff" lineSpacing="10"
+             verticalAlign="middle" text="消息消息消息消息消息消息消息消息消息消息消息消息消息" horizontalCenter="0" verticalCenter="0"
+             textAlign="center" height="54"  horizontalCenter.seat1="3.5" verticalCenter.seat1="-9" horizontalCenter.seat2="-2.5" verticalCenter.seat2="3" horizontalCenter.seat3="2.5" verticalCenter.seat3="3" horizontalCenter.seat4="2.5" verticalCenter.seat4="3"/>
+</e:Skin>

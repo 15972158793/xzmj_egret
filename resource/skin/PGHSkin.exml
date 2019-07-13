@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PGHSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="1206">
+    <e:Group id="g_PGHG" height="98" right="130" bottom="130" visible="false">
+        <e:Button icon="btn_hu_png" includeInLayout="{hasHu}" visible="{hasHu}">
+            <e:Skin currentState="up" states="up,down" width="118" height="98">
+                <e:Image source="btn_hu_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" />
+            </e:Skin>
+        </e:Button>
+        <e:Button icon="btn_gang_png" includeInLayout="{hasGang}" visible="{hasGang}">
+            <e:Skin currentState="up" states="up,down" width="118" height="98">
+                <e:Image source="btn_gang_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9"
+                         scaleY.down="0.9" />
+            </e:Skin>
+        </e:Button>
+        <e:Button icon="btn_peng_png" includeInLayout="{hasPeng}" visible="{hasPeng}">
+            <e:Skin currentState="up" states="up,down" width="118" height="98">
+                <e:Image source="btn_peng_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9"
+                         scaleY.down="0.9" />
+            </e:Skin>
+        </e:Button>
+        <e:Button icon="btn_guo_png" includeInLayout="{hasGuo}" visible="{hasGuo}">
+            <e:Skin currentState="up" states="up,down" width="118" height="98">
+                <e:Image source="btn_guo_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9"
+                         scaleY.down="0.9" />
+            </e:Skin>
+        </e:Button>
+        <e:layout>
+            <e:HorizontalLayout gap="20" />
+        </e:layout>
+    </e:Group>
+    <e:Group id="g_select_gang" width="644" horizontalCenter="0" bottom="128" visible="false">
+        <e:Rect id="img_bg" height="111" fillColor="0x012018" width="601" horizontalCenter="0" ellipseWidth="30" />
+        <e:Group id="g_gang" y="-10" horizontalCenter="0" scaleX="0.76" scaleY="0.76">
+            <!--<ns1:CardPG currentState="p1" skinName="CardPGSkin" />
+            <ns1:CardPG currentState="p1" skinName="CardPGSkin" />
+            <ns1:CardPG currentState="p1" skinName="CardPGSkin" />
+            -->
+            <e:layout>
+                <e:HorizontalLayout gap="32" />
+            </e:layout>
+        </e:Group>
+    </e:Group>
+</e:Skin>

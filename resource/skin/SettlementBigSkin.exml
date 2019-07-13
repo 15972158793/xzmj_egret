@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SettlementBigSkin" width="1206" height="750" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Rect id="rect_touch" width="100%" height="100%" fillAlpha="0.5" x="0" y="0" />
+    <e:Group id="box" horizontalCenter="0" verticalCenter="0">
+        <e:Image source="stmt_bg_png" />
+        <e:Label text="统分" horizontalCenter="-5.5" top="16" size="36" fontFamily="SimHei" textColor="0xe0ced6" />
+        <e:Group y="77" horizontalCenter="0">
+            <e:Label id="txt_title" x="0" y="0" size="32" fontFamily="SimHei" textColor="0xdad8d9" />
+            <e:Group y="0" x="315.45">
+                <e:Label text="房号：" x="0" y="0" size="32" fontFamily="SimHei" textColor="0xDAD8D9" />
+                <e:Label id="txt_roomNum" text="000000" x="100" y="0" size="32" fontFamily="SimHei" textColor="0xdad8d9" />
+            </e:Group>
+        </e:Group>
+        <e:Image y="114.01" horizontalCenter="0.5" source="stmt_line_png" />
+        <e:Group y="460.98" horizontalCenter="0.5">
+            <e:Button id="btn_continue" x="0" y="0">
+                <e:Skin states="up,down" width="224" height="86">
+                    <e:Image scaleX.down="0.9" scaleY.down="0.9" horizontalCenter="0" verticalCenter="0"
+                             source="stmt_btn_bg_png" />
+                    <e:Image verticalCenter="0" horizontalCenter="0" scaleX.down="0.9" scaleY.down="0.9"
+                             source="stmt_btn_back_png" />
+                </e:Skin>
+            </e:Button>
+            <e:Button id="btn_share" x="335" y="0">
+                <e:Skin states="up,down" width="224" height="86">
+                    <e:Image scaleX.down="0.9" scaleY.down="0.9" horizontalCenter="0" verticalCenter="0"
+                             source="stmt_btn_bg1_png" />
+                    <e:Image verticalCenter="0" horizontalCenter="0" scaleX.down="0.9" scaleY.down="0.9"
+                             source="stmt_btn_share_png" />
+                </e:Skin>
+            </e:Button>
+            <e:layout>
+                <e:HorizontalLayout gap="164" />
+            </e:layout>
+        </e:Group>
+        <e:List id="list_data" width="880" height="320" x="19.12" y="128.93" anchorOffsetX="0" anchorOffsetY="0">
+            <e:itemRendererSkinName>
+                <e:Skin width="880" height="80">
+                    <e:Image horizontalCenter="0" bottom="0" source="stmt_line_png" />
+                    <e:Rect id="img_headMask" width="60" height="60" x="101" ellipseWidth="20" verticalCenter="0" />
+                    <e:Image source="{data.headUrl}" width="60" height="60" x="101" verticalCenter="0"
+                             mask="{img_headMask}" />
+                    <e:Image visible="{data.isWin}" source="{data.rankIcon}" left="66" verticalCenter="-32" />
+                    <e:Label text="{data.nick}" x="186.72" size="26" fontFamily="SimHei" verticalCenter="0" />
+                    <e:Group x="322" y="27">
+                        <e:Label text="局数：" x="0" size="26" fontFamily="SimHei" textColor="0xffffff" y="0" />
+                        <e:Label text="胜利：" x="120.68" size="26" fontFamily="SimHei" textColor="0xffc947" y="0" />
+                        <e:Label text="失败：" x="237.32999999999998" size="26" fontFamily="SimHei" textColor="0xcdf5ff"
+                                 y="1" />
+                        <e:layout>
+                            <e:HorizontalLayout gap="61" />
+                        </e:layout>
+                    </e:Group>
+                    <e:Group x="392" y="27">
+                        <e:Label text="{data.round}" x="0" size="26" fontFamily="SimHei" y="0" width="78" height="26" />
+                        <e:Label text="{data.win}" x="115.67999999999995" size="26" fontFamily="SimHei"
+                                 textColor="0xFFC947" y="0" width="78" height="26" />
+                        <e:Label text="{data.lose}" x="234.31999999999994" size="26" fontFamily="SimHei"
+                                 textColor="0xCDF5FF" y="1" width="78" height="26" />
+                        <e:layout>
+                            <e:HorizontalLayout gap="61" />
+                        </e:layout>
+                    </e:Group>
+                    <e:Label id="txt_score" x="760" verticalCenter="0" size="32" fontFamily="SimHei" />
+                </e:Skin>
+            </e:itemRendererSkinName>
+        </e:List>
+    </e:Group>
+</e:Skin>

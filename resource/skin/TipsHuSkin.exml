@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TipsHuSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" states="c1,c2,c3,c4,c5,c6,c7,c8,c9">
+    <e:Image alpha="0.8" source="tipHu_bg_png" scale9Grid="44,37,19,55" width.c1="304" height.c1="160" width.c2="452"
+             height.c2="160" width.c3="600" height.c3="160" width.c4="452" height.c4="277" width.c5="600"
+             height.c5="277" width.c6="600" height.c6="277" width.c7="748" height.c7="277" width.c8="748"
+             height.c8="277" width.c9="896" height.c9="277" />
+    <e:Image source="tipHu_hu_png" left="33" verticalCenter="-9.5" />
+    <e:List id="list_card" verticalCenter="-9.5" right="38">
+        <e:itemRendererSkinName>
+            <e:Skin width="142" height="111">
+                <e:Image source="tipHu_bg1_png" />
+                <ns1:Card id="c_card" currentState="c1_1" skinName="CardSkin" verticalCenter="0" left="4" />
+                <e:Label id="txt_num" text="4张" fontFamily="SimHei" size="30" verticalCenter="0" textColor="0xe0e0e0"
+                         right="9" />
+            </e:Skin>
+        </e:itemRendererSkinName>
+        <e:layout>
+            <e:TileLayout requestedRowCount.c2="1" requestedRowCount.c3="1" requestedRowCount.c4="2"
+                          requestedRowCount.c5="2" requestedRowCount.c6="2" requestedRowCount.c7="2"
+                          requestedRowCount.c8="2" requestedRowCount.c9="2" />
+        </e:layout>
+    </e:List>
+</e:Skin>

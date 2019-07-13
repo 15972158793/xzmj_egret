@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MenuSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:tween="egret.tween.*" width="1206" height="750">
+	<w:Declarations>
+		<tween:TweenGroup id="show">
+			<tween:TweenItem target="{menu}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}" y="{75}" />
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500" ease="circOut">
+					<tween:props>
+						<e:Object alpha="{1}" y="{95}" />
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{rect_touch}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}" />
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500" ease="circOut">
+					<tween:props>
+						<e:Object alpha="{1}" />
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="hide">
+			<tween:TweenItem target="{menu}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{1}" y="{95}" />
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500" ease="circOut">
+					<tween:props>
+						<e:Object alpha="{0}" y="{75}" />
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{rect_touch}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{1}" />
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500" ease="circOut">
+					<tween:props>
+						<e:Object alpha="{0}" />
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Rect id="rect_touch" fillAlpha="0.5" width="1206" height="750" />
+	<e:Group id="menu" alpha="0" y="75" x="5">
+		<e:Image source="menu_bg_png" />
+		<e:Image source="menu_1_png" y="28.88" horizontalCenter="0" />
+		<e:Image source="menu_2_png" y="127.04" horizontalCenter="0.5" />
+		<e:Image source="menu_3_png" y="222.05" horizontalCenter="0.5" />
+		<e:Image mask="m4mask" source="menu_4_png" y="314.55" horizontalCenter="0.5" />
+		<e:Image id="m4mask" source="menu_4_png" y="314.55" horizontalCenter="0.5"  alpha="0.5"/>
+		<e:Image mask="m5mask" source="menu_5_png" y="402.5" horizontalCenter="0.5" />
+		<e:Image id="m5mask" source="menu_5_png" y="402.5" horizontalCenter="0.5"  alpha="0.5"/>
+		<e:Rect id="rect_menu_1" height="83" y="19.69" width="317" fillAlpha="0" horizontalCenter="0" />
+		<e:Rect id="rect_menu_2" height="83" y="112.86" width="317" fillAlpha="0" horizontalCenter="0" />
+		<e:Rect id="rect_menu_3" height="83" y="206.2" width="317" fillAlpha="0" horizontalCenter="0" />
+		<e:Rect id="rect_menu_4" height="83" y="298.2" width="317" fillAlpha="0" horizontalCenter="0" />
+		<e:Rect id="rect_menu_5" height="83" y="391.5" width="317" horizontalCenter="0" fillAlpha="0" />
+	</e:Group>
+</e:Skin>

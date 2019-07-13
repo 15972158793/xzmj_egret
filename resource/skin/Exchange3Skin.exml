@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Exchange3Skin" xmlns:e="http://ns.egret.com/eui">
+	<e:Group x="0" y="0">
+		<e:Button id="btn_reset" x="0" y="0">
+			<e:Skin width="252" height="86" states="up,down">
+			<e:Image source="ready_btnbg_1_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+			<e:Image source="btn_reset_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+			</e:Skin>
+		</e:Button>
+		<e:Button id="btn_exchange" x="0" y="0">
+			<e:Skin width="252" height="86" states="up,down">
+			<e:Image source="ready_btnbg_2_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+			<e:Image source="btn_change3_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+			</e:Skin>
+		</e:Button>
+		<e:layout>
+			<e:HorizontalLayout gap="113"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

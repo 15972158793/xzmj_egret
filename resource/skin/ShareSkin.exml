@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShareSkin" width="1206" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:tween="egret.tween.*">
+    <w:Declarations>
+        <tween:TweenGroup id="arrow">
+            <tween:TweenItem target="{img_arrow}">
+                <tween:Set>
+                    <tween:props>
+                        <e:Object x="{1056}" />
+                    </tween:props>
+                </tween:Set>
+                <tween:To duration="500">
+                    <tween:props>
+                        <e:Object x="{1112}" />
+                    </tween:props>
+                </tween:To>
+            </tween:TweenItem>
+        </tween:TweenGroup>
+    </w:Declarations>
+	<e:Rect id="rect_touch" width="1206" height="750" fillAlpha="0.7" x="0" y="0"/>
+	<e:Image id="img_share" right="162" verticalCenter="0" x="510" y="17" source="" touchEnabled="false"/>
+	<e:Image id="img_arrow" source="share_arrow_png" x="1112" bottom="26" y="647"/>
+</e:Skin>

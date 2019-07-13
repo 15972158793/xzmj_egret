@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardDeskSkin" width="1206" height="750" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+    <e:Group id="g_c2" height="605" right="112" touchThrough="true" touchChildren="false" touchEnabled="false" top="30">
+        <e:Group horizontalCenter="0" name="g_card" top="0">
+            <e:layout>
+                <e:VerticalLayout gap="-84" />
+            </e:layout>
+            <!--<ns1:Card skinName="CardSkin" currentState="c2_1" />
+            -->
+        </e:Group>
+        <e:Group horizontalCenter="0" bottom="0" name="g_pg">
+            <e:layout>
+                <e:VerticalLayout gap="-58" />
+            </e:layout>
+            <!--<ns1:CardPG skinName="CardPGSkin" currentState="p2" />
+            <ns1:CardPG skinName="CardPGSkin" currentState="p2" />
+            <ns1:CardPG skinName="CardPGSkin" currentState="p2" />
+            <ns1:CardPG skinName="CardPGSkin" currentState="p2" />
+            -->
+        </e:Group>
+    </e:Group>
+    <e:Group id="g_c3" width="629" horizontalCenter="30.5" top="28" touchChildren="false" touchEnabled="false"
+             touchThrough="true">
+        <e:Group verticalCenter="0" touchChildren="false" touchEnabled="false" touchThrough="true" name="g_pg" right="0">
+            <!--<ns1:CardPG skinName="CardPGSkin" currentState="p3" />
+            <ns1:CardPG skinName="CardPGSkin" currentState="p3" />
+            <ns1:CardPG skinName="CardPGSkin" currentState="p3" />
+            <ns1:CardPG skinName="CardPGSkin" currentState="p3" />
+            -->
+            <e:layout>
+                <e:HorizontalLayout gap="-28" />
+            </e:layout>
+        </e:Group>
+        <e:Group name="g_card" left="0" bottom="0">
+            <e:layout>
+                <e:HorizontalLayout gap="-40" />
+            </e:layout>
+            <!--<ns1:Card skinName="CardSkin" currentState="c3_1" />
+            -->
+        </e:Group>
+    </e:Group>
+    <e:Group id="g_c4" height="605" verticalCenter="-49.5" left="112" touchChildren="false" touchEnabled="false"
+             touchThrough="true">
+        <e:Group horizontalCenter="0" name="g_pg" top="0">
+            <!--<ns1:CardPG skinName="CardPGSkin" currentState="p4" />
+            <ns1:CardPG skinName="CardPGSkin" currentState="p4" />
+            <ns1:CardPG skinName="CardPGSkin" currentState="p4" />
+            -->
+            <e:layout>
+                <e:VerticalLayout gap="-58" />
+            </e:layout>
+        </e:Group>
+        <e:Group horizontalCenter="0" bottom="0" name="g_card">
+            <e:layout>
+                <e:VerticalLayout gap="-84" />
+            </e:layout>
+            <!--<ns1:Card skinName="CardSkin" currentState="c4_1" />
+            <ns1:Card skinName="CardSkin" currentState="c4_1" />
+            <ns1:Card skinName="CardSkin" currentState="c4_1" />
+            <ns1:Card skinName="CardSkin" currentState="c4_1" />
+            -->
+        </e:Group>
+    </e:Group>
+    <e:Group id="g_s1" touchChildren="false" touchEnabled="false" touchThrough="true" bottom="124" horizontalCenter="0"
+             width="496" height="206">
+        <e:layout>
+            <e:TileLayout orientation="rows" horizontalGap="-34" verticalGap="-62" requestedColumnCount="11" />
+        </e:layout>
+        <!--<ns1:Card currentState="c1_3" skinName="CardSkin" />
+        <ns1:Card currentState="c1_3" skinName="CardSkin" />
+        <ns1:Card currentState="c1_3" skinName="CardSkin" />
+        <ns1:Card currentState="c1_3" skinName="CardSkin" />
+        <ns1:Card currentState="c1_3" skinName="CardSkin" />
+        <ns1:Card currentState="c1_3" skinName="CardSkin" />
+        <ns1:Card currentState="c1_3" skinName="CardSkin" />
+        <ns1:Card currentState="c1_3" skinName="CardSkin" />
+        <ns1:Card currentState="c1_3" skinName="CardSkin" />
+        <ns1:Card currentState="c1_3" skinName="CardSkin" />
+        <ns1:Card currentState="c1_3" skinName="CardSkin" />
+        <ns1:Card currentState="c1_3" skinName="CardSkin" />
+        <ns1:Card currentState="c1_3" skinName="CardSkin" />
+        <ns1:Card currentState="c1_3" skinName="CardSkin" />
+        <ns1:Card currentState="c1_3" skinName="CardSkin" />
+        <ns1:Card currentState="c1_3" skinName="CardSkin" />
+        <ns1:Card currentState="c1_3" skinName="CardSkin" />
+        -->
+    </e:Group>
+    <e:Group id="g_s2" verticalCenter="-20" width="194" right="180" touchChildren="false" touchEnabled="false"
+             touchThrough="true" height="460">
+        <e:layout>
+            <e:BasicLayout/>
+        </e:layout>
+        <!--<ns1:Card currentState="c2_3" skinName="CardSkin" />
+        <ns1:Card currentState="c2_3" skinName="CardSkin" />
+        <ns1:Card currentState="c2_3" skinName="CardSkin" />
+        <ns1:Card currentState="c2_3" skinName="CardSkin" />
+        <ns1:Card currentState="c2_3" skinName="CardSkin" />
+        <ns1:Card currentState="c2_3" skinName="CardSkin" />
+        <ns1:Card currentState="c2_3" skinName="CardSkin" />
+        <ns1:Card currentState="c2_3" skinName="CardSkin" />
+        <ns1:Card currentState="c2_3" skinName="CardSkin" />
+        <ns1:Card currentState="c2_3" skinName="CardSkin" />
+        <ns1:Card currentState="c2_3" skinName="CardSkin" />
+        -->
+    </e:Group>
+    <e:Group id="g_s3" width="496" horizontalCenter="0" top="125" height="206" touchChildren="false"
+             touchEnabled="false" touchThrough="true">
+        <e:layout>
+            <e:BasicLayout/>
+        </e:layout>
+        <!--<ns1:Card currentState="c3_3" skinName="CardSkin" />
+        <ns1:Card currentState="c3_3" skinName="CardSkin" />
+        <ns1:Card currentState="c3_3" skinName="CardSkin" />
+        <ns1:Card currentState="c3_3" skinName="CardSkin" />
+        <ns1:Card currentState="c3_3" skinName="CardSkin" />
+        <ns1:Card currentState="c3_3" skinName="CardSkin" />
+        <ns1:Card currentState="c3_3" skinName="CardSkin" />
+        <ns1:Card currentState="c3_3" skinName="CardSkin" />
+        <ns1:Card currentState="c3_3" skinName="CardSkin" />
+        <ns1:Card currentState="c3_3" skinName="CardSkin" />
+        <ns1:Card currentState="c3_3" skinName="CardSkin" />
+        <ns1:Card currentState="c3_3" skinName="CardSkin" />
+        <ns1:Card currentState="c3_3" skinName="CardSkin" />
+        -->
+    </e:Group>
+    <e:Group id="g_s4" verticalCenter="-20" left="180" width="194" height="460" touchChildren="false"
+             touchEnabled="false" touchThrough="true">
+        <e:layout>
+            <e:TileLayout orientation="columns" horizontalGap="-17" verticalGap="-75" horizontalAlign="right"
+                          verticalAlign="top" requestedRowCount="11" />
+        </e:layout>
+        <!--<ns1:Card currentState="c4_3" skinName="CardSkin" />
+        <ns1:Card currentState="c4_3" skinName="CardSkin" />
+        <ns1:Card currentState="c4_3" skinName="CardSkin" />
+        <ns1:Card currentState="c4_3" skinName="CardSkin" />
+        <ns1:Card currentState="c4_3" skinName="CardSkin" />
+        <ns1:Card currentState="c4_3" skinName="CardSkin" />
+        <ns1:Card currentState="c4_3" skinName="CardSkin" />
+        <ns1:Card currentState="c4_3" skinName="CardSkin" />
+        <ns1:Card currentState="c4_3" skinName="CardSkin" />
+        <ns1:Card currentState="c4_3" skinName="CardSkin" />
+        <ns1:Card currentState="c4_3" skinName="CardSkin" />
+        <ns1:Card currentState="c4_3" skinName="CardSkin" />
+        <ns1:Card currentState="c4_3" skinName="CardSkin" />
+        <ns1:Card currentState="c4_3" skinName="CardSkin" />
+        -->
+    </e:Group>
+    <e:Group id="g_c1" width="1206" horizontalCenter="0" bottom="5">
+        <e:Group touchEnabled="false" left="20" bottom="0" touchThrough="true" touchChildren="false" name="g_pg">
+            <e:layout>
+                <e:HorizontalLayout/>
+            </e:layout>
+            <!--<ns1:CardPG skinName="CardPGSkin" currentState="p1" />
+            <ns1:CardPG skinName="CardPGSkin" currentState="p1" />
+            <ns1:CardPG skinName="CardPGSkin" currentState="p1" />
+            <ns1:CardPG skinName="CardPGSkin" currentState="p1" />
+            -->
+        </e:Group>
+        <e:Group name="g_card" right="137" bottom="0" height="110">
+            <e:layout>
+                <e:HorizontalLayout gap="-3" />
+            </e:layout>
+            <!--<ns1:Card currentState="c1_1" skinName="CardSkin" />
+            -->
+            <!--<ns1:Card currentState="c1_1" skinName="CardSkin" />
+            <ns1:Card currentState="c1_1" skinName="CardSkin" />
+            <ns1:Card currentState="c1_1" skinName="CardSkin" />
+            <ns1:Card currentState="c1_1" skinName="CardSkin" />
+            -->
+        </e:Group>
+        <ns1:Card id="card_mo" skinName="CardSkin" currentState="c1_1" right="40" bottom="0" visible="false" />
+    </e:Group>
+    <ns1:Arrows id="c_arrows" horizontalCenter="0" verticalCenter="0" skinName="ArrowsSkin" width="100" height="100" />
+    <e:Group horizontalCenter="142.5" verticalCenter="0">
+        <e:Rect width="139" height="40" fillColor="0x08503E" ellipseWidth="15" />
+        <e:Image source="cardNum_txt_png" verticalCenter="0" left="4" />
+        <e:BitmapLabel id="txt_cardNum" text="" font="cardNum_fnt" verticalCenter="0" left="41" width="72"
+                       textAlign="center" />
+    </e:Group>
+    <e:Group id="g_showPut" touchChildren="false" touchEnabled="false" touchThrough="true" x="556" y="311"
+             visible="false">
+        <e:Rect width="94" height="128" fillColor="0x034937" strokeWeight="2" strokeColor="0x0DF2BA" ellipseWidth="15" />
+        <ns1:Card currentState="c1_2" skinName="CardSkin" horizontalCenter="0" verticalCenter="0" name="card" />
+    </e:Group>
+    <e:Group width="100%" height="100%" touchChildren="false" touchEnabled="false" touchThrough="true">
+        <e:Image id="show_hu_1" horizontalCenter="0" bottom="100" visible="false" />
+        <e:Image id="show_hu_2" right="100" verticalCenter="0" scaleX="0.5" scaleY="0.5" visible="false" />
+        <e:Image id="show_hu_3" top="100" horizontalCenter="0" scaleX="0.5" scaleY="0.5" visible="false" />
+        <e:Image id="show_hu_4" left="100" verticalCenter="0" scaleX="0.5" scaleY="0.5" visible="false" />
+    </e:Group>
+</e:Skin>

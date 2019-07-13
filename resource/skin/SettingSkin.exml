@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SettingSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="1206"
+        height="750">
+    <e:Rect id="rect_touch" fillAlpha="0.5" width="1206" height="750" />
+    <e:Group id="box" horizontalCenter="0" verticalCenter="0">
+        <e:Image source="set_box_png" />
+        <e:Label y="16.83" text="设置" horizontalCenter="0.5" size="36" fontFamily="SimHei" textColor="0xe0ced6" />
+        <e:Button id="btn_close" right="0" y="-9.38">
+            <e:Skin states="up,down" width="88" height="88">
+                <e:Image source="close_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" />
+            </e:Skin>
+        </e:Button>
+        <e:Label text="音乐：" x="169" y="173" size="32" fontFamily="SimHei" textColor="0xdad8d9" />
+        <e:Label text="音效：" x="169" y="325" size="32" fontFamily="SimHei" textColor="0xdad8d9" />
+        <e:ToggleSwitch id="ts_music" x="333" y="141">
+            <e:Skin states="up,down,upAndSelected,downAndSelected" currentState="up" width="178" height="95">
+                <e:Image includeIn="upAndSelected,downAndSelected" source="set_on_png" />
+                <e:Image includeIn="up,down" source="set_off_png" />
+            </e:Skin>
+        </e:ToggleSwitch>
+        <e:ToggleSwitch id="ts_sound" x="333" y="294">
+            <e:Skin states="up,down,upAndSelected,downAndSelected" currentState="up" width="178" height="95">
+                <e:Image includeIn="upAndSelected,downAndSelected" source="set_on_png" />
+                <e:Image includeIn="up,down" source="set_off_png" />
+            </e:Skin>
+        </e:ToggleSwitch>
+    </e:Group>
+</e:Skin>

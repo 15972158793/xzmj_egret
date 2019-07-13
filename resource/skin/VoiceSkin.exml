@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="VoiceSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:tween="egret.tween.*" width="195" height="326">
+    <w:Declarations>
+        <tween:TweenGroup id="show">
+            <tween:TweenItem target="{image}">
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{0}" />
+                    </tween:props>
+                </tween:Set>
+                <tween:Wait duration="1000" />
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{1}" />
+                    </tween:props>
+                </tween:Set>
+                <tween:Wait duration="100" />
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{0}" />
+                    </tween:props>
+                </tween:Set>
+            </tween:TweenItem>
+            <tween:TweenItem target="{image0}">
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{0}" />
+                    </tween:props>
+                </tween:Set>
+                <tween:Wait duration="900" />
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{1}" />
+                    </tween:props>
+                </tween:Set>
+                <tween:Wait duration="300" />
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{0}" />
+                    </tween:props>
+                </tween:Set>
+            </tween:TweenItem>
+            <tween:TweenItem target="{image1}">
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{0}" />
+                    </tween:props>
+                </tween:Set>
+                <tween:Wait duration="800" />
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{1}" />
+                    </tween:props>
+                </tween:Set>
+                <tween:Wait duration="500" />
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{0}" />
+                    </tween:props>
+                </tween:Set>
+            </tween:TweenItem>
+            <tween:TweenItem target="{image2}">
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{0}" />
+                    </tween:props>
+                </tween:Set>
+                <tween:Wait duration="700" />
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{1}" />
+                    </tween:props>
+                </tween:Set>
+                <tween:Wait duration="700" />
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{0}" />
+                    </tween:props>
+                </tween:Set>
+            </tween:TweenItem>
+            <tween:TweenItem target="{image3}">
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{0}" />
+                    </tween:props>
+                </tween:Set>
+                <tween:Wait duration="600" />
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{1}" />
+                    </tween:props>
+                </tween:Set>
+                <tween:Wait duration="900" />
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{0}" />
+                    </tween:props>
+                </tween:Set>
+            </tween:TweenItem>
+            <tween:TweenItem target="{image4}">
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{0}" />
+                    </tween:props>
+                </tween:Set>
+                <tween:Wait duration="500" />
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{1}" />
+                    </tween:props>
+                </tween:Set>
+                <tween:Wait duration="1100" />
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{0}" />
+                    </tween:props>
+                </tween:Set>
+            </tween:TweenItem>
+            <tween:TweenItem target="{image5}">
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{0}" />
+                    </tween:props>
+                </tween:Set>
+                <tween:Wait duration="400" />
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{1}" />
+                    </tween:props>
+                </tween:Set>
+                <tween:Wait duration="1300" />
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{0}" />
+                    </tween:props>
+                </tween:Set>
+            </tween:TweenItem>
+            <tween:TweenItem target="{image6}">
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{0}" />
+                    </tween:props>
+                </tween:Set>
+                <tween:Wait duration="300" />
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{1}" />
+                    </tween:props>
+                </tween:Set>
+                <tween:Wait duration="1500" />
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{0}" />
+                    </tween:props>
+                </tween:Set>
+            </tween:TweenItem>
+            <tween:TweenItem target="{image7}">
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{0}" />
+                    </tween:props>
+                </tween:Set>
+                <tween:Wait duration="200" />
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{1}" />
+                    </tween:props>
+                </tween:Set>
+                <tween:Wait duration="1700" />
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{0}" />
+                    </tween:props>
+                </tween:Set>
+            </tween:TweenItem>
+            <tween:TweenItem target="{image8}">
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{0}" />
+                    </tween:props>
+                </tween:Set>
+                <tween:Wait duration="100" />
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{1}" />
+                    </tween:props>
+                </tween:Set>
+                <tween:Wait duration="1900" />
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{0}" />
+                    </tween:props>
+                </tween:Set>
+            </tween:TweenItem>
+        </tween:TweenGroup>
+        <tween:TweenGroup id="tip">
+            <tween:TweenItem target="{g_tip}">
+                <tween:Set>
+                    <tween:props>
+                        <e:Object alpha="{0}" y="{154}" />
+                    </tween:props>
+                </tween:Set>
+                <tween:To duration="400" ease="cubicOut">
+                    <tween:props>
+                        <e:Object alpha="{1}" y="{144}" />
+                    </tween:props>
+                </tween:To>
+                <tween:To duration="650" />
+                <tween:To duration="300">
+                    <tween:props>
+                        <e:Object alpha="{0}" y="{134}" />
+                    </tween:props>
+                </tween:To>
+            </tween:TweenItem>
+        </tween:TweenGroup>
+    </w:Declarations>
+    <e:Group id="box" horizontalCenter="0" verticalCenter="0" touchChildren="false" touchEnabled="false"
+             touchThrough="true">
+        <e:Image source="voice_bg_png" />
+        <e:Group horizontalCenter="0" verticalCenter="-10">
+            <e:Image source="voice_1_png" scale9Grid="12,3,1,16" width="86" />
+            <e:Image source="voice_1_png" scale9Grid="12,3,1,16" width="86" />
+            <e:Image source="voice_1_png" scale9Grid="12,3,1,16" width="79" />
+            <e:Image source="voice_1_png" scale9Grid="12,3,1,16" width="71" />
+            <e:Image source="voice_1_png" scale9Grid="12,3,1,16" width="64" />
+            <e:Image source="voice_1_png" scale9Grid="12,3,1,16" width="56" />
+            <e:Image source="voice_1_png" scale9Grid="12,3,1,16" width="48" />
+            <e:Image source="voice_1_png" scale9Grid="12,3,1,16" width="41" />
+            <e:Image source="voice_1_png" scale9Grid="12,3,1,16" width="33" />
+            <e:Image source="voice_1_png" />
+            <e:layout>
+                <e:VerticalLayout gap="-2" horizontalAlign="center" />
+            </e:layout>
+        </e:Group>
+        <e:Group horizontalCenter="0" verticalCenter="-10">
+            <e:Image id="image" source="voice_2_png" scale9Grid="12,3,1,16" width="86" />
+            <e:Image id="image0" source="voice_2_png" scale9Grid="12,3,1,16" width="86" />
+            <e:Image id="image1" source="voice_2_png" scale9Grid="12,3,1,16" width="79" />
+            <e:Image id="image2" source="voice_2_png" scale9Grid="12,3,1,16" width="71" />
+            <e:Image id="image3" source="voice_2_png" scale9Grid="12,3,1,16" width="64" />
+            <e:Image id="image4" source="voice_2_png" scale9Grid="12,3,1,16" width="56" />
+            <e:Image id="image5" source="voice_2_png" scale9Grid="12,3,1,16" width="48" />
+            <e:Image id="image6" source="voice_2_png" scale9Grid="12,3,1,16" width="41" />
+            <e:Image id="image7" source="voice_2_png" scale9Grid="12,3,1,16" width="33" />
+            <e:Image id="image8" source="voice_2_png" />
+            <e:layout>
+                <e:VerticalLayout gap="-2" horizontalAlign="center" />
+            </e:layout>
+        </e:Group>
+    </e:Group>
+    <e:Group id="g_tip" touchThrough="true" touchChildren="false" touchEnabled="false" horizontalCenter="0" y="144"
+             visible="false">
+        <e:Image touchEnabled="false" source="voice_tips_png" />
+        <e:Label name="msg" size="23" fontFamily="SimHei" horizontalCenter="0" verticalCenter="0" textColor="0xffffff"
+                 touchEnabled="false" />
+    </e:Group>
+</e:Skin>

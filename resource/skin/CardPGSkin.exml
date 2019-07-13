@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardPGSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing"
+        states="p1,p2,p3,p4" width.p3="158" height.p3="127" width.p1="218" height.p1="139" width.p2="76" height.p2="180" width.p4="76" height.p4="180">
+    <e:Group id="g_card" x="0" y="0" y.p1="28.4" y.p3="16.63">
+        <!--<ns1:Card skinName="CardSkin" currentState="c1_2" />
+        <ns1:Card skinName="CardSkin" currentState="c1_2" />
+        <ns1:Card skinName="CardSkin" currentState="c1_2" />-->
+        <e:layout.p4>
+            <e:VerticalLayout gap="-75" />
+        </e:layout.p4>
+        <e:layout.p3>
+            <e:HorizontalLayout gap="-35" />
+        </e:layout.p3>
+        <e:layout.p2>
+            <e:VerticalLayout gap="-75" />
+        </e:layout.p2>
+        <e:layout.p1>
+            <e:HorizontalLayout gap="-5" />
+        </e:layout.p1>
+    </e:Group>
+    <e:Group id="c_top" horizontalCenter.p1="0" top.p1="0" verticalCenter.p2="-14" horizontalCenter.p3="0" top.p3="0"
+             verticalCenter.p4="-14">
+        <!--<ns1:Card skinName="CardSkin" currentState="c1_2" />-->
+    </e:Group>
+</e:Skin>

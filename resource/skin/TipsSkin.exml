@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TipsSkin" width="1206" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="rect_touch" width="1206" height="750" fillAlpha="0.5"/>
+	<e:Group id="box" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="dissolve_box_png"/>
+		<e:Label text="提示" x="59.47" y="18.79" size="30" fontFamily="SimHei" textColor="0xe0ced6"/>
+		<e:Label id="txt_msg" text="解散房间需征求所有在线玩家同意，您确定要申请解散房间吗？" y="90" size="32" fontFamily="SimHei" textColor="0xdad8d9" width="533.33" textAlign="center" verticalAlign="middle" height="157.33" horizontalCenter="0"/>
+		<e:Button id="btn_ok" y="266" horizontalCenter="150">
+			<e:Skin width="224" height="86" states="up,down">
+			<e:Image source="dissolve_btn_bg2_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+			<e:Image source="dissolve_btn_1_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+			</e:Skin>
+		</e:Button>
+		<e:Button id="btn_cancel" y="266" anchorOffsetX="224" horizontalCenter="-150">
+			<e:Skin width="224" height="86" states="up,down">
+			<e:Image source="dissolve_btn_bg1_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+			<e:Image source="dissolve_btn_2_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+			</e:Skin>
+		</e:Button>
+	</e:Group>
+</e:Skin>

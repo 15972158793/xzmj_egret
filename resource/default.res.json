@@ -1,0 +1,1107 @@
+{
+	"groups": [
+		{
+			"keys": "face_ske_json,face_tex_json,face_tex_png,face_json,dice_json,dice_png,cardNum_fnt,cardNum_png,nullSound_mp3,card_json,texture1_json,texture2_json,chat_face_bg_png,chat_face_bg1_png,dissolve_box_png,help_bg_png,set_box_png,stmt_bg_png,chat_bg_png,interactionFace_ske_json,interactionFace_tex_json,interactionFace_tex_png,desk_bg_png,fnt_arrows_png,fnt_arrows_fnt",
+			"name": "preload"
+		},
+		{
+			"keys": "bg_mp3,woman_chat0_mp3,woman_chat1_mp3,woman_chat2_mp3,woman_chat3_mp3,woman_chat4_mp3,woman_chat5_mp3,woman_chat6_mp3,interaction_s1_mp3,interaction_s2_mp3,interaction_s3_mp3,interaction_s4_mp3,interaction_s5_mp3,interaction_s6_mp3,timeOut_0_mp3,timeOut_1_mp3,timeOut_2_mp3,timeOut_3_mp3,man_1_1_mp3,man_2_1_mp3,man_5_1_mp3,man_6_1_mp3,woman_1_1_mp3,woman_2_1_mp3,woman_5_1_mp3,woman_6_1_mp3,dice_mp3,man21_1_mp3,man22_1_mp3,man23_1_mp3,man24_1_mp3,man25_1_mp3,man26_1_mp3,man27_1_mp3,man28_1_mp3,man29_1_mp3,woman21_1_mp3,woman22_1_mp3,woman23_1_mp3,woman24_1_mp3,woman25_1_mp3,woman26_1_mp3,woman27_1_mp3,woman28_1_mp3,woman29_1_mp3,man1_1_mp3,man2_1_mp3,man3_1_mp3,man4_1_mp3,man5_1_mp3,man6_1_mp3,man7_1_mp3,man8_1_mp3,man9_1_mp3,woman1_1_mp3,woman2_1_mp3,woman3_1_mp3,woman4_1_mp3,woman5_1_mp3,woman6_1_mp3,woman7_1_mp3,woman8_1_mp3,woman9_1_mp3,man41_1_mp3,man42_1_mp3,man43_1_mp3,man44_1_mp3,man45_1_mp3,man46_1_mp3,man47_1_mp3,man48_1_mp3,man49_1_mp3,woman41_1_mp3,woman42_1_mp3,woman43_1_mp3,woman44_1_mp3,woman45_1_mp3,woman46_1_mp3,woman47_1_mp3,woman48_1_mp3,woman49_1_mp3,man_chat0_mp3,man_chat1_mp3,man_chat10_mp3,man_chat11_mp3,man_chat12_mp3,man_chat13_mp3,man_chat14_mp3,man_chat15_mp3,man_chat16_mp3,man_chat2_mp3,man_chat3_mp3,man_chat4_mp3,man_chat5_mp3,man_chat6_mp3,man_chat7_mp3,man_chat8_mp3,man_chat9_mp3,woman_chat10_mp3,woman_chat11_mp3,woman_chat12_mp3,woman_chat13_mp3,woman_chat14_mp3,woman_chat15_mp3,woman_chat16_mp3,woman_chat7_mp3,woman_chat8_mp3,woman_chat9_mp3,man_1_2_mp3,man_1_3_mp3,man_1_4_mp3,man_2_2_mp3,man_2_3_mp3,man_3_1_mp3,man_3_2_mp3,man_5_2_mp3,man_5_3_mp3,man_6_2_mp3,woman_1_2_mp3,woman_1_3_mp3,woman_1_4_mp3,woman_2_2_mp3,woman_2_3_mp3,woman_3_1_mp3,woman_3_2_mp3,woman_5_2_mp3,woman_5_3_mp3,woman_6_2_mp3,man21_2_mp3,man21_3_mp3,man21_4_mp3,man22_2_mp3,man22_3_mp3,man22_4_mp3,man24_2_mp3,man26_2_mp3,man28_2_mp3,man28_3_mp3,man28_4_mp3,man29_2_mp3,woman21_2_mp3,woman21_3_mp3,woman21_4_mp3,woman22_2_mp3,woman22_3_mp3,woman22_4_mp3,woman24_2_mp3,woman26_2_mp3,woman28_2_mp3,woman28_3_mp3,woman28_4_mp3,woman29_2_mp3,man1_2_mp3,man1_3_mp3,man1_4_mp3,man2_2_mp3,man3_2_mp3,man3_3_mp3,man4_2_mp3,man4_3_mp3,man5_2_mp3,man5_3_mp3,man8_2_mp3,man9_2_mp3,man9_3_mp3,woman1_2_mp3,woman1_3_mp3,woman1_4_mp3,woman2_2_mp3,woman3_2_mp3,woman3_3_mp3,woman4_2_mp3,woman4_3_mp3,woman5_2_mp3,woman5_3_mp3,woman8_2_mp3,woman9_2_mp3,woman9_3_mp3,man41_2_mp3,man41_3_mp3,man42_2_mp3,man43_2_mp3,man44_2_mp3,man44_3_mp3,man49_2_mp3,woman41_2_mp3,woman41_3_mp3,woman42_2_mp3,woman43_2_mp3,woman44_2_mp3,woman44_3_mp3,woman49_2_mp3",
+			"name": "music"
+		},
+		{
+			"keys": "",
+			"name": "unload"
+		}
+	],
+	"resources": [
+		{
+			"url": "music/bg.mp3",
+			"type": "sound",
+			"name": "bg_mp3"
+		},
+		{
+			"url": "music/chat/woman_chat0.mp3",
+			"type": "sound",
+			"name": "woman_chat0_mp3"
+		},
+		{
+			"url": "music/chat/woman_chat1.mp3",
+			"type": "sound",
+			"name": "woman_chat1_mp3"
+		},
+		{
+			"url": "music/chat/woman_chat2.mp3",
+			"type": "sound",
+			"name": "woman_chat2_mp3"
+		},
+		{
+			"url": "music/chat/woman_chat3.mp3",
+			"type": "sound",
+			"name": "woman_chat3_mp3"
+		},
+		{
+			"url": "music/chat/woman_chat4.mp3",
+			"type": "sound",
+			"name": "woman_chat4_mp3"
+		},
+		{
+			"url": "music/chat/woman_chat5.mp3",
+			"type": "sound",
+			"name": "woman_chat5_mp3"
+		},
+		{
+			"url": "music/chat/woman_chat6.mp3",
+			"type": "sound",
+			"name": "woman_chat6_mp3"
+		},
+		{
+			"url": "image/cardNum.fnt",
+			"type": "font",
+			"name": "cardNum_fnt"
+		},
+		{
+			"url": "image/cardNum.png",
+			"type": "image",
+			"name": "cardNum_png"
+		},
+		{
+			"url": "image/dice.json",
+			"type": "json",
+			"name": "dice_json"
+		},
+		{
+			"url": "image/dice.png",
+			"type": "image",
+			"name": "dice_png"
+		},
+		{
+			"url": "image/face.json",
+			"type": "sheet",
+			"name": "face_json",
+			"subkeys": "face10_png,face11_png,face12_png,face13_png,face14_png,face15_png,face16_png,face17_png,face18_png,face19_png,face1_png,face20_png,face2_png,face3_png,face4_png,face5_png,face6_png,face7_png,face8_png,face9_png"
+		},
+		{
+			"url": "image/face_ske.json",
+			"type": "json",
+			"name": "face_ske_json"
+		},
+		{
+			"url": "image/face_tex.json",
+			"type": "json",
+			"name": "face_tex_json"
+		},
+		{
+			"url": "image/face_tex.png",
+			"type": "image",
+			"name": "face_tex_png"
+		},
+		{
+			"url": "music/nullSound.mp3",
+			"type": "sound",
+			"name": "nullSound_mp3"
+		},
+		{
+			"url": "image/interactionFace_ske.json",
+			"type": "json",
+			"name": "interactionFace_ske_json"
+		},
+		{
+			"url": "image/interactionFace_tex.json",
+			"type": "json",
+			"name": "interactionFace_tex_json"
+		},
+		{
+			"url": "image/interactionFace_tex.png",
+			"type": "image",
+			"name": "interactionFace_tex_png"
+		},
+		{
+			"url": "music/interaction/interaction_s1.mp3",
+			"type": "sound",
+			"name": "interaction_s1_mp3"
+		},
+		{
+			"url": "music/interaction/interaction_s2.mp3",
+			"type": "sound",
+			"name": "interaction_s2_mp3"
+		},
+		{
+			"url": "music/interaction/interaction_s3.mp3",
+			"type": "sound",
+			"name": "interaction_s3_mp3"
+		},
+		{
+			"url": "music/interaction/interaction_s4.mp3",
+			"type": "sound",
+			"name": "interaction_s4_mp3"
+		},
+		{
+			"url": "music/interaction/interaction_s5.mp3",
+			"type": "sound",
+			"name": "interaction_s5_mp3"
+		},
+		{
+			"url": "music/interaction/interaction_s6.mp3",
+			"type": "sound",
+			"name": "interaction_s6_mp3"
+		},
+		{
+			"url": "image/card.json",
+			"type": "sheet",
+			"name": "card_json",
+			"subkeys": "card_1_png,card_21_png,card_22_png,card_23_png,card_24_png,card_25_png,card_26_png,card_27_png,card_28_png,card_29_png,card_2_png,card_3_png,card_41_png,card_42_png,card_43_png,card_44_png,card_45_png,card_46_png,card_47_png,card_48_png,card_49_png,card_4_png,card_5_png,card_6_png,card_7_png,card_8_png,card_9_png,card_bg_1_png,card_bg_2_png,card_bg_3_png,card_bg_4_png,card_bg_6_png,card_face_1_png,card_face_2_png,card_face_3_png"
+		},
+		{
+			"url": "image/texture1.json",
+			"type": "sheet",
+			"name": "texture1_json",
+			"subkeys": "arrows_bg_png,arrows_png,btn_change3_png,btn_chat_png,btn_chi_png,btn_gang_png,btn_guo_png,btn_hu_png,btn_menu_png,btn_peng_png,btn_reset_png,btn_set_png,btn_tiao_png,btn_tong_png,btn_voice_png,btn_wan_png,cardNum_bg_png,cardNum_txt_png,card_arrow_png,card_wild_png,chat_bg1_png,chat_bg2_png,chat_bg3_png,chat_bg4_png,chat_title_face2_png,chat_title_face_png,chat_title_talk2_png,chat_title_talk_png,close_png,dissolve_btn_1_png,dissolve_btn_2_png,dissolve_btn_3_png,dissolve_btn_4_png,dissolve_btn_bg1_png,dissolve_btn_bg2_png,dissolve_reject_png,dissolve_sure_png,interaction_1_png,interaction_2_png,interaction_3_png,interaction_4_png,interaction_5_png,interaction_6_png,interaction_list_1_png,interaction_list_2_png,interaction_list_3_png,interaction_list_4_png,interaction_list_5_png,interaction_list_6_png,lack_recommend_png,menu_1_png,menu_2_png,menu_3_png,menu_4_png,menu_5_png,ready_btn_1_png,ready_btn_2_png,ready_btn_3_png,ready_btn_4_png,ready_btn_5_png,ready_btnbg_1_png,ready_btnbg_2_png,ready_btnbg_3_png,ready_txt_png,score_hua_png,score_zu_png,selected_card_arrow_png,set_off_png,set_on_png,shaizi1_png,shaizi2_png,shaizi3_png,shaizi4_png,shaizi5_png,shaizi6_png,share_arrow_png,show_hu_png,show_lack_1_png,show_lack_2_png,show_lack_3_png,show_zimo_png,stmt_arrow_png,stmt_btn_back_png,stmt_btn_bg1_png,stmt_btn_bg_png,stmt_btn_continue_png,stmt_btn_share_png,stmt_line_png,stmt_liuju_png,tipHu_bg1_png,tipHu_bg_png,tipHu_hu_png,user_headbg_png,user_offLine_png,user_score_png,user_zhuang_png,voice_1_png,voice_2_png,voice_show0_png,voice_show1_png,voice_show2_png,voice_tips_png"
+		},
+		{
+			"url": "image/texture2.json",
+			"type": "sheet",
+			"name": "texture2_json",
+			"subkeys": "chat_box1_png,chat_box2_png,chat_item_bg_png,dissolve_headbg_png,dissolve_pgs_png,dissolve_pgsbg_png,medal_1_png,medal_2_png,medal_3_png,menu_bg_png,select_chi_png,share_1_png,share_2_png,share_3_png,show_putCard_png,top_bar_png,voice_bg_png"
+		},
+		{
+			"url": "image/alone/chat_face_bg.png",
+			"type": "image",
+			"name": "chat_face_bg_png"
+		},
+		{
+			"url": "image/alone/chat_face_bg1.png",
+			"type": "image",
+			"name": "chat_face_bg1_png"
+		},
+		{
+			"url": "image/alone/dissolve_box.png",
+			"type": "image",
+			"name": "dissolve_box_png"
+		},
+		{
+			"url": "image/alone/help_bg.png",
+			"type": "image",
+			"name": "help_bg_png"
+		},
+		{
+			"url": "image/alone/set_box.png",
+			"type": "image",
+			"name": "set_box_png"
+		},
+		{
+			"url": "image/alone/stmt_bg.png",
+			"type": "image",
+			"name": "stmt_bg_png"
+		},
+		{
+			"url": "image/alone/chat_bg.png",
+			"type": "image",
+			"name": "chat_bg_png"
+		},
+		{
+			"url": "music/timeOut/timeOut_0.mp3",
+			"type": "sound",
+			"name": "timeOut_0_mp3"
+		},
+		{
+			"url": "music/timeOut/timeOut_1.mp3",
+			"type": "sound",
+			"name": "timeOut_1_mp3"
+		},
+		{
+			"url": "music/timeOut/timeOut_2.mp3",
+			"type": "sound",
+			"name": "timeOut_2_mp3"
+		},
+		{
+			"url": "music/timeOut/timeOut_3.mp3",
+			"type": "sound",
+			"name": "timeOut_3_mp3"
+		},
+		{
+			"url": "image/alone/desk_bg.png",
+			"type": "image",
+			"name": "desk_bg_png"
+		},
+		{
+			"url": "image/fnt_arrows.png",
+			"type": "image",
+			"name": "fnt_arrows_png"
+		},
+		{
+			"url": "image/fnt_arrows.fnt",
+			"type": "font",
+			"name": "fnt_arrows_fnt"
+		},
+		{
+			"url": "music/card/dice.mp3",
+			"type": "sound",
+			"name": "dice_mp3"
+		},
+		{
+			"url": "music/card/cpghg/man_1_1.mp3",
+			"type": "sound",
+			"name": "man_1_1_mp3"
+		},
+		{
+			"url": "music/card/cpghg/man_2_1.mp3",
+			"type": "sound",
+			"name": "man_2_1_mp3"
+		},
+		{
+			"url": "music/card/cpghg/man_5_1.mp3",
+			"type": "sound",
+			"name": "man_5_1_mp3"
+		},
+		{
+			"url": "music/card/cpghg/man_6_1.mp3",
+			"type": "sound",
+			"name": "man_6_1_mp3"
+		},
+		{
+			"url": "music/card/cpghg/woman_1_1.mp3",
+			"type": "sound",
+			"name": "woman_1_1_mp3"
+		},
+		{
+			"url": "music/card/cpghg/woman_2_1.mp3",
+			"type": "sound",
+			"name": "woman_2_1_mp3"
+		},
+		{
+			"url": "music/card/cpghg/woman_5_1.mp3",
+			"type": "sound",
+			"name": "woman_5_1_mp3"
+		},
+		{
+			"url": "music/card/cpghg/woman_6_1.mp3",
+			"type": "sound",
+			"name": "woman_6_1_mp3"
+		},
+		{
+			"url": "music/card/tiao/man21_1.mp3",
+			"type": "sound",
+			"name": "man21_1_mp3"
+		},
+		{
+			"url": "music/card/tiao/man22_1.mp3",
+			"type": "sound",
+			"name": "man22_1_mp3"
+		},
+		{
+			"url": "music/card/tiao/man23_1.mp3",
+			"type": "sound",
+			"name": "man23_1_mp3"
+		},
+		{
+			"url": "music/card/tiao/man24_1.mp3",
+			"type": "sound",
+			"name": "man24_1_mp3"
+		},
+		{
+			"url": "music/card/tiao/man25_1.mp3",
+			"type": "sound",
+			"name": "man25_1_mp3"
+		},
+		{
+			"url": "music/card/tiao/man26_1.mp3",
+			"type": "sound",
+			"name": "man26_1_mp3"
+		},
+		{
+			"url": "music/card/tiao/man27_1.mp3",
+			"type": "sound",
+			"name": "man27_1_mp3"
+		},
+		{
+			"url": "music/card/tiao/man28_1.mp3",
+			"type": "sound",
+			"name": "man28_1_mp3"
+		},
+		{
+			"url": "music/card/tiao/man29_1.mp3",
+			"type": "sound",
+			"name": "man29_1_mp3"
+		},
+		{
+			"url": "music/card/tiao/woman21_1.mp3",
+			"type": "sound",
+			"name": "woman21_1_mp3"
+		},
+		{
+			"url": "music/card/tiao/woman22_1.mp3",
+			"type": "sound",
+			"name": "woman22_1_mp3"
+		},
+		{
+			"url": "music/card/tiao/woman23_1.mp3",
+			"type": "sound",
+			"name": "woman23_1_mp3"
+		},
+		{
+			"url": "music/card/tiao/woman24_1.mp3",
+			"type": "sound",
+			"name": "woman24_1_mp3"
+		},
+		{
+			"url": "music/card/tiao/woman25_1.mp3",
+			"type": "sound",
+			"name": "woman25_1_mp3"
+		},
+		{
+			"url": "music/card/tiao/woman26_1.mp3",
+			"type": "sound",
+			"name": "woman26_1_mp3"
+		},
+		{
+			"url": "music/card/tiao/woman27_1.mp3",
+			"type": "sound",
+			"name": "woman27_1_mp3"
+		},
+		{
+			"url": "music/card/tiao/woman28_1.mp3",
+			"type": "sound",
+			"name": "woman28_1_mp3"
+		},
+		{
+			"url": "music/card/tiao/woman29_1.mp3",
+			"type": "sound",
+			"name": "woman29_1_mp3"
+		},
+		{
+			"url": "music/card/wan/man41_1.mp3",
+			"type": "sound",
+			"name": "man41_1_mp3"
+		},
+		{
+			"url": "music/card/wan/man42_1.mp3",
+			"type": "sound",
+			"name": "man42_1_mp3"
+		},
+		{
+			"url": "music/card/wan/man43_1.mp3",
+			"type": "sound",
+			"name": "man43_1_mp3"
+		},
+		{
+			"url": "music/card/wan/man44_1.mp3",
+			"type": "sound",
+			"name": "man44_1_mp3"
+		},
+		{
+			"url": "music/card/wan/man45_1.mp3",
+			"type": "sound",
+			"name": "man45_1_mp3"
+		},
+		{
+			"url": "music/card/wan/man46_1.mp3",
+			"type": "sound",
+			"name": "man46_1_mp3"
+		},
+		{
+			"url": "music/card/wan/man47_1.mp3",
+			"type": "sound",
+			"name": "man47_1_mp3"
+		},
+		{
+			"url": "music/card/wan/man48_1.mp3",
+			"type": "sound",
+			"name": "man48_1_mp3"
+		},
+		{
+			"url": "music/card/wan/man49_1.mp3",
+			"type": "sound",
+			"name": "man49_1_mp3"
+		},
+		{
+			"url": "music/card/wan/woman41_1.mp3",
+			"type": "sound",
+			"name": "woman41_1_mp3"
+		},
+		{
+			"url": "music/card/wan/woman42_1.mp3",
+			"type": "sound",
+			"name": "woman42_1_mp3"
+		},
+		{
+			"url": "music/card/wan/woman43_1.mp3",
+			"type": "sound",
+			"name": "woman43_1_mp3"
+		},
+		{
+			"url": "music/card/wan/woman44_1.mp3",
+			"type": "sound",
+			"name": "woman44_1_mp3"
+		},
+		{
+			"url": "music/card/wan/woman45_1.mp3",
+			"type": "sound",
+			"name": "woman45_1_mp3"
+		},
+		{
+			"url": "music/card/wan/woman46_1.mp3",
+			"type": "sound",
+			"name": "woman46_1_mp3"
+		},
+		{
+			"url": "music/card/wan/woman47_1.mp3",
+			"type": "sound",
+			"name": "woman47_1_mp3"
+		},
+		{
+			"url": "music/card/wan/woman48_1.mp3",
+			"type": "sound",
+			"name": "woman48_1_mp3"
+		},
+		{
+			"url": "music/card/wan/woman49_1.mp3",
+			"type": "sound",
+			"name": "woman49_1_mp3"
+		},
+		{
+			"url": "music/card/tong/man1_1.mp3",
+			"type": "sound",
+			"name": "man1_1_mp3"
+		},
+		{
+			"url": "music/card/tong/man2_1.mp3",
+			"type": "sound",
+			"name": "man2_1_mp3"
+		},
+		{
+			"url": "music/card/tong/man3_1.mp3",
+			"type": "sound",
+			"name": "man3_1_mp3"
+		},
+		{
+			"url": "music/card/tong/man4_1.mp3",
+			"type": "sound",
+			"name": "man4_1_mp3"
+		},
+		{
+			"url": "music/card/tong/man5_1.mp3",
+			"type": "sound",
+			"name": "man5_1_mp3"
+		},
+		{
+			"url": "music/card/tong/man6_1.mp3",
+			"type": "sound",
+			"name": "man6_1_mp3"
+		},
+		{
+			"url": "music/card/tong/man7_1.mp3",
+			"type": "sound",
+			"name": "man7_1_mp3"
+		},
+		{
+			"url": "music/card/tong/man8_1.mp3",
+			"type": "sound",
+			"name": "man8_1_mp3"
+		},
+		{
+			"url": "music/card/tong/man9_1.mp3",
+			"type": "sound",
+			"name": "man9_1_mp3"
+		},
+		{
+			"url": "music/card/tong/woman1_1.mp3",
+			"type": "sound",
+			"name": "woman1_1_mp3"
+		},
+		{
+			"url": "music/card/tong/woman2_1.mp3",
+			"type": "sound",
+			"name": "woman2_1_mp3"
+		},
+		{
+			"url": "music/card/tong/woman3_1.mp3",
+			"type": "sound",
+			"name": "woman3_1_mp3"
+		},
+		{
+			"url": "music/card/tong/woman4_1.mp3",
+			"type": "sound",
+			"name": "woman4_1_mp3"
+		},
+		{
+			"url": "music/card/tong/woman5_1.mp3",
+			"type": "sound",
+			"name": "woman5_1_mp3"
+		},
+		{
+			"url": "music/card/tong/woman6_1.mp3",
+			"type": "sound",
+			"name": "woman6_1_mp3"
+		},
+		{
+			"url": "music/card/tong/woman7_1.mp3",
+			"type": "sound",
+			"name": "woman7_1_mp3"
+		},
+		{
+			"url": "music/card/tong/woman8_1.mp3",
+			"type": "sound",
+			"name": "woman8_1_mp3"
+		},
+		{
+			"url": "music/card/tong/woman9_1.mp3",
+			"type": "sound",
+			"name": "woman9_1_mp3"
+		},
+		{
+			"url": "music/chat/man_chat0.mp3",
+			"type": "sound",
+			"name": "man_chat0_mp3"
+		},
+		{
+			"url": "music/chat/man_chat1.mp3",
+			"type": "sound",
+			"name": "man_chat1_mp3"
+		},
+		{
+			"url": "music/chat/man_chat10.mp3",
+			"type": "sound",
+			"name": "man_chat10_mp3"
+		},
+		{
+			"url": "music/chat/man_chat11.mp3",
+			"type": "sound",
+			"name": "man_chat11_mp3"
+		},
+		{
+			"url": "music/chat/man_chat12.mp3",
+			"type": "sound",
+			"name": "man_chat12_mp3"
+		},
+		{
+			"url": "music/chat/man_chat13.mp3",
+			"type": "sound",
+			"name": "man_chat13_mp3"
+		},
+		{
+			"url": "music/chat/man_chat14.mp3",
+			"type": "sound",
+			"name": "man_chat14_mp3"
+		},
+		{
+			"url": "music/chat/man_chat15.mp3",
+			"type": "sound",
+			"name": "man_chat15_mp3"
+		},
+		{
+			"url": "music/chat/man_chat16.mp3",
+			"type": "sound",
+			"name": "man_chat16_mp3"
+		},
+		{
+			"url": "music/chat/man_chat2.mp3",
+			"type": "sound",
+			"name": "man_chat2_mp3"
+		},
+		{
+			"url": "music/chat/man_chat3.mp3",
+			"type": "sound",
+			"name": "man_chat3_mp3"
+		},
+		{
+			"url": "music/chat/man_chat4.mp3",
+			"type": "sound",
+			"name": "man_chat4_mp3"
+		},
+		{
+			"url": "music/chat/man_chat5.mp3",
+			"type": "sound",
+			"name": "man_chat5_mp3"
+		},
+		{
+			"url": "music/chat/man_chat6.mp3",
+			"type": "sound",
+			"name": "man_chat6_mp3"
+		},
+		{
+			"url": "music/chat/man_chat7.mp3",
+			"type": "sound",
+			"name": "man_chat7_mp3"
+		},
+		{
+			"url": "music/chat/man_chat8.mp3",
+			"type": "sound",
+			"name": "man_chat8_mp3"
+		},
+		{
+			"url": "music/chat/man_chat9.mp3",
+			"type": "sound",
+			"name": "man_chat9_mp3"
+		},
+		{
+			"url": "music/chat/woman_chat10.mp3",
+			"type": "sound",
+			"name": "woman_chat10_mp3"
+		},
+		{
+			"url": "music/chat/woman_chat11.mp3",
+			"type": "sound",
+			"name": "woman_chat11_mp3"
+		},
+		{
+			"url": "music/chat/woman_chat12.mp3",
+			"type": "sound",
+			"name": "woman_chat12_mp3"
+		},
+		{
+			"url": "music/chat/woman_chat13.mp3",
+			"type": "sound",
+			"name": "woman_chat13_mp3"
+		},
+		{
+			"url": "music/chat/woman_chat14.mp3",
+			"type": "sound",
+			"name": "woman_chat14_mp3"
+		},
+		{
+			"url": "music/chat/woman_chat15.mp3",
+			"type": "sound",
+			"name": "woman_chat15_mp3"
+		},
+		{
+			"url": "music/chat/woman_chat16.mp3",
+			"type": "sound",
+			"name": "woman_chat16_mp3"
+		},
+		{
+			"url": "music/chat/woman_chat7.mp3",
+			"type": "sound",
+			"name": "woman_chat7_mp3"
+		},
+		{
+			"url": "music/chat/woman_chat8.mp3",
+			"type": "sound",
+			"name": "woman_chat8_mp3"
+		},
+		{
+			"url": "music/chat/woman_chat9.mp3",
+			"type": "sound",
+			"name": "woman_chat9_mp3"
+		},
+		{
+			"url": "music/card/cpghg/man_1_2.mp3",
+			"type": "sound",
+			"name": "man_1_2_mp3"
+		},
+		{
+			"url": "music/card/cpghg/man_1_3.mp3",
+			"type": "sound",
+			"name": "man_1_3_mp3"
+		},
+		{
+			"url": "music/card/cpghg/man_1_4.mp3",
+			"type": "sound",
+			"name": "man_1_4_mp3"
+		},
+		{
+			"url": "music/card/cpghg/man_2_2.mp3",
+			"type": "sound",
+			"name": "man_2_2_mp3"
+		},
+		{
+			"url": "music/card/cpghg/man_2_3.mp3",
+			"type": "sound",
+			"name": "man_2_3_mp3"
+		},
+		{
+			"url": "music/card/cpghg/man_3_1.mp3",
+			"type": "sound",
+			"name": "man_3_1_mp3"
+		},
+		{
+			"url": "music/card/cpghg/man_3_2.mp3",
+			"type": "sound",
+			"name": "man_3_2_mp3"
+		},
+		{
+			"url": "music/card/cpghg/man_5_2.mp3",
+			"type": "sound",
+			"name": "man_5_2_mp3"
+		},
+		{
+			"url": "music/card/cpghg/man_5_3.mp3",
+			"type": "sound",
+			"name": "man_5_3_mp3"
+		},
+		{
+			"url": "music/card/cpghg/man_6_2.mp3",
+			"type": "sound",
+			"name": "man_6_2_mp3"
+		},
+		{
+			"url": "music/card/cpghg/woman_1_2.mp3",
+			"type": "sound",
+			"name": "woman_1_2_mp3"
+		},
+		{
+			"url": "music/card/cpghg/woman_1_3.mp3",
+			"type": "sound",
+			"name": "woman_1_3_mp3"
+		},
+		{
+			"url": "music/card/cpghg/woman_1_4.mp3",
+			"type": "sound",
+			"name": "woman_1_4_mp3"
+		},
+		{
+			"url": "music/card/cpghg/woman_2_2.mp3",
+			"type": "sound",
+			"name": "woman_2_2_mp3"
+		},
+		{
+			"url": "music/card/cpghg/woman_2_3.mp3",
+			"type": "sound",
+			"name": "woman_2_3_mp3"
+		},
+		{
+			"url": "music/card/cpghg/woman_3_1.mp3",
+			"type": "sound",
+			"name": "woman_3_1_mp3"
+		},
+		{
+			"url": "music/card/cpghg/woman_3_2.mp3",
+			"type": "sound",
+			"name": "woman_3_2_mp3"
+		},
+		{
+			"url": "music/card/cpghg/woman_5_2.mp3",
+			"type": "sound",
+			"name": "woman_5_2_mp3"
+		},
+		{
+			"url": "music/card/cpghg/woman_5_3.mp3",
+			"type": "sound",
+			"name": "woman_5_3_mp3"
+		},
+		{
+			"url": "music/card/cpghg/woman_6_2.mp3",
+			"type": "sound",
+			"name": "woman_6_2_mp3"
+		},
+		{
+			"url": "music/card/tiao/man21_2.mp3",
+			"type": "sound",
+			"name": "man21_2_mp3"
+		},
+		{
+			"url": "music/card/tiao/man21_3.mp3",
+			"type": "sound",
+			"name": "man21_3_mp3"
+		},
+		{
+			"url": "music/card/tiao/man21_4.mp3",
+			"type": "sound",
+			"name": "man21_4_mp3"
+		},
+		{
+			"url": "music/card/tiao/man22_2.mp3",
+			"type": "sound",
+			"name": "man22_2_mp3"
+		},
+		{
+			"url": "music/card/tiao/man22_3.mp3",
+			"type": "sound",
+			"name": "man22_3_mp3"
+		},
+		{
+			"url": "music/card/tiao/man22_4.mp3",
+			"type": "sound",
+			"name": "man22_4_mp3"
+		},
+		{
+			"url": "music/card/tiao/man24_2.mp3",
+			"type": "sound",
+			"name": "man24_2_mp3"
+		},
+		{
+			"url": "music/card/tiao/man26_2.mp3",
+			"type": "sound",
+			"name": "man26_2_mp3"
+		},
+		{
+			"url": "music/card/tiao/man28_2.mp3",
+			"type": "sound",
+			"name": "man28_2_mp3"
+		},
+		{
+			"url": "music/card/tiao/man28_3.mp3",
+			"type": "sound",
+			"name": "man28_3_mp3"
+		},
+		{
+			"url": "music/card/tiao/man28_4.mp3",
+			"type": "sound",
+			"name": "man28_4_mp3"
+		},
+		{
+			"url": "music/card/tiao/man29_2.mp3",
+			"type": "sound",
+			"name": "man29_2_mp3"
+		},
+		{
+			"url": "music/card/tiao/woman21_2.mp3",
+			"type": "sound",
+			"name": "woman21_2_mp3"
+		},
+		{
+			"url": "music/card/tiao/woman21_3.mp3",
+			"type": "sound",
+			"name": "woman21_3_mp3"
+		},
+		{
+			"url": "music/card/tiao/woman21_4.mp3",
+			"type": "sound",
+			"name": "woman21_4_mp3"
+		},
+		{
+			"url": "music/card/tiao/woman22_2.mp3",
+			"type": "sound",
+			"name": "woman22_2_mp3"
+		},
+		{
+			"url": "music/card/tiao/woman22_3.mp3",
+			"type": "sound",
+			"name": "woman22_3_mp3"
+		},
+		{
+			"url": "music/card/tiao/woman22_4.mp3",
+			"type": "sound",
+			"name": "woman22_4_mp3"
+		},
+		{
+			"url": "music/card/tiao/woman24_2.mp3",
+			"type": "sound",
+			"name": "woman24_2_mp3"
+		},
+		{
+			"url": "music/card/tiao/woman26_2.mp3",
+			"type": "sound",
+			"name": "woman26_2_mp3"
+		},
+		{
+			"url": "music/card/tiao/woman28_2.mp3",
+			"type": "sound",
+			"name": "woman28_2_mp3"
+		},
+		{
+			"url": "music/card/tiao/woman28_3.mp3",
+			"type": "sound",
+			"name": "woman28_3_mp3"
+		},
+		{
+			"url": "music/card/tiao/woman28_4.mp3",
+			"type": "sound",
+			"name": "woman28_4_mp3"
+		},
+		{
+			"url": "music/card/tiao/woman29_2.mp3",
+			"type": "sound",
+			"name": "woman29_2_mp3"
+		},
+		{
+			"url": "music/card/wan/man41_2.mp3",
+			"type": "sound",
+			"name": "man41_2_mp3"
+		},
+		{
+			"url": "music/card/wan/man41_3.mp3",
+			"type": "sound",
+			"name": "man41_3_mp3"
+		},
+		{
+			"url": "music/card/wan/man42_2.mp3",
+			"type": "sound",
+			"name": "man42_2_mp3"
+		},
+		{
+			"url": "music/card/wan/man43_2.mp3",
+			"type": "sound",
+			"name": "man43_2_mp3"
+		},
+		{
+			"url": "music/card/wan/man44_2.mp3",
+			"type": "sound",
+			"name": "man44_2_mp3"
+		},
+		{
+			"url": "music/card/wan/man44_3.mp3",
+			"type": "sound",
+			"name": "man44_3_mp3"
+		},
+		{
+			"url": "music/card/wan/man49_2.mp3",
+			"type": "sound",
+			"name": "man49_2_mp3"
+		},
+		{
+			"url": "music/card/wan/woman41_2.mp3",
+			"type": "sound",
+			"name": "woman41_2_mp3"
+		},
+		{
+			"url": "music/card/wan/woman41_3.mp3",
+			"type": "sound",
+			"name": "woman41_3_mp3"
+		},
+		{
+			"url": "music/card/wan/woman42_2.mp3",
+			"type": "sound",
+			"name": "woman42_2_mp3"
+		},
+		{
+			"url": "music/card/wan/woman43_2.mp3",
+			"type": "sound",
+			"name": "woman43_2_mp3"
+		},
+		{
+			"url": "music/card/wan/woman44_2.mp3",
+			"type": "sound",
+			"name": "woman44_2_mp3"
+		},
+		{
+			"url": "music/card/wan/woman44_3.mp3",
+			"type": "sound",
+			"name": "woman44_3_mp3"
+		},
+		{
+			"url": "music/card/wan/woman49_2.mp3",
+			"type": "sound",
+			"name": "woman49_2_mp3"
+		},
+		{
+			"url": "music/card/tong/man1_2.mp3",
+			"type": "sound",
+			"name": "man1_2_mp3"
+		},
+		{
+			"url": "music/card/tong/man1_3.mp3",
+			"type": "sound",
+			"name": "man1_3_mp3"
+		},
+		{
+			"url": "music/card/tong/man1_4.mp3",
+			"type": "sound",
+			"name": "man1_4_mp3"
+		},
+		{
+			"url": "music/card/tong/man2_2.mp3",
+			"type": "sound",
+			"name": "man2_2_mp3"
+		},
+		{
+			"url": "music/card/tong/man3_2.mp3",
+			"type": "sound",
+			"name": "man3_2_mp3"
+		},
+		{
+			"url": "music/card/tong/man3_3.mp3",
+			"type": "sound",
+			"name": "man3_3_mp3"
+		},
+		{
+			"url": "music/card/tong/man4_2.mp3",
+			"type": "sound",
+			"name": "man4_2_mp3"
+		},
+		{
+			"url": "music/card/tong/man4_3.mp3",
+			"type": "sound",
+			"name": "man4_3_mp3"
+		},
+		{
+			"url": "music/card/tong/man5_2.mp3",
+			"type": "sound",
+			"name": "man5_2_mp3"
+		},
+		{
+			"url": "music/card/tong/man5_3.mp3",
+			"type": "sound",
+			"name": "man5_3_mp3"
+		},
+		{
+			"url": "music/card/tong/man8_2.mp3",
+			"type": "sound",
+			"name": "man8_2_mp3"
+		},
+		{
+			"url": "music/card/tong/man9_2.mp3",
+			"type": "sound",
+			"name": "man9_2_mp3"
+		},
+		{
+			"url": "music/card/tong/man9_3.mp3",
+			"type": "sound",
+			"name": "man9_3_mp3"
+		},
+		{
+			"url": "music/card/tong/woman1_2.mp3",
+			"type": "sound",
+			"name": "woman1_2_mp3"
+		},
+		{
+			"url": "music/card/tong/woman1_3.mp3",
+			"type": "sound",
+			"name": "woman1_3_mp3"
+		},
+		{
+			"url": "music/card/tong/woman1_4.mp3",
+			"type": "sound",
+			"name": "woman1_4_mp3"
+		},
+		{
+			"url": "music/card/tong/woman2_2.mp3",
+			"type": "sound",
+			"name": "woman2_2_mp3"
+		},
+		{
+			"url": "music/card/tong/woman3_2.mp3",
+			"type": "sound",
+			"name": "woman3_2_mp3"
+		},
+		{
+			"url": "music/card/tong/woman3_3.mp3",
+			"type": "sound",
+			"name": "woman3_3_mp3"
+		},
+		{
+			"url": "music/card/tong/woman4_2.mp3",
+			"type": "sound",
+			"name": "woman4_2_mp3"
+		},
+		{
+			"url": "music/card/tong/woman4_3.mp3",
+			"type": "sound",
+			"name": "woman4_3_mp3"
+		},
+		{
+			"url": "music/card/tong/woman5_2.mp3",
+			"type": "sound",
+			"name": "woman5_2_mp3"
+		},
+		{
+			"url": "music/card/tong/woman5_3.mp3",
+			"type": "sound",
+			"name": "woman5_3_mp3"
+		},
+		{
+			"url": "music/card/tong/woman8_2.mp3",
+			"type": "sound",
+			"name": "woman8_2_mp3"
+		},
+		{
+			"url": "music/card/tong/woman9_2.mp3",
+			"type": "sound",
+			"name": "woman9_2_mp3"
+		},
+		{
+			"url": "music/card/tong/woman9_3.mp3",
+			"type": "sound",
+			"name": "woman9_3_mp3"
+		}
+	]
+}

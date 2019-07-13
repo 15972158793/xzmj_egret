@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UserInfoSkin" width="1206" height="750" xmlns:e="http://ns.egret.com/eui">
+    <e:Rect id="rect_touch" width="1206" height="750" fillAlpha="0.5" />
+    <e:Group id="box" horizontalCenter="0" verticalCenter="0">
+        <e:Image source="set_box_png" />
+        <e:Label y="16.83" text="玩家信息" horizontalCenter="0.5" size="36" fontFamily="SimHei" textColor="0xe0ced6" />
+        <e:Button id="btn_close" right="0" y="-9">
+            <e:Skin states="up,down" width="88" height="88">
+                <e:Image source="close_png" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9" />
+            </e:Skin>
+        </e:Button>
+        <e:Rect id="img_headMask" width="130" height="130" ellipseWidth="40" left="75" top="130" />
+        <e:Image source="{player_head}" width="130" height="130" left="75" top="130" mask="{img_headMask}" />
+        <e:Group x="252" y="122">
+            <e:Label text="昵称：" x="0" y="0" size="32" fontFamily="SimHei" textColor="0xdad8d9" />
+            <e:Label text="ID：" x="0" y="0" size="32" fontFamily="SimHei" textColor="0xdad8d9" />
+            <e:Label text="IP：" x="0" y="0" size="32" fontFamily="SimHei" textColor="0xdad8d9" />
+            <e:layout>
+                <e:VerticalLayout gap="25" />
+            </e:layout>
+        </e:Group>
+        <e:Group x="365.2" y="122">
+            <e:Label text="{player_nick}" x="0" y="0" size="32" fontFamily="SimHei" textColor="0xdad8d9" />
+            <e:Label text="{player_id}" x="0" y="0" size="32" fontFamily="SimHei" textColor="0xdad8d9" />
+            <e:Label text="{player_ip}" x="0" y="0" size="32" fontFamily="SimHei" textColor="0xdad8d9" />
+            <e:layout>
+                <e:VerticalLayout gap="25" />
+            </e:layout>
+        </e:Group>
+        <e:Group id="g_face" bottom="56" horizontalCenter="1">
+            <e:Image source="interaction_list_1_png" x="0" y="0" />
+            <e:Image source="interaction_list_2_png" x="0" y="0" />
+            <e:Image source="interaction_list_3_png" x="0" y="0" />
+            <e:Image source="interaction_list_4_png" x="0" y="0" />
+            <e:Image source="interaction_list_5_png" x="0" y="0" />
+            <e:Image source="interaction_list_6_png" x="0" y="0" />
+            <e:layout>
+                <e:HorizontalLayout gap="13" />
+            </e:layout>
+        </e:Group>
+    </e:Group>
+</e:Skin>

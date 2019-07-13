@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DoLackSkin" xmlns:e="http://ns.egret.com/eui">
+    <e:Group>
+        <e:Button id="btn_tong" x="0" y="0">
+            <e:Skin states="up,down" width="127" height="137">
+                <e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"
+                         source="btn_tong_png" />
+            </e:Skin>
+        </e:Button>
+        <e:Button id="btn_tiao" x="0" y="0">
+            <e:Skin states="up,down" width="127" height="137">
+                <e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"
+                         source="btn_tiao_png" />
+            </e:Skin>
+        </e:Button>
+        <e:Button id="btn_wan" x="0" y="0">
+            <e:Skin states="up,down" width="127" height="137">
+                <e:Image horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"
+                         source="btn_wan_png" />
+            </e:Skin>
+        </e:Button>
+        <e:layout>
+            <e:HorizontalLayout gap="63" />
+        </e:layout>
+    </e:Group>
+</e:Skin>

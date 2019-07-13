@@ -1,0 +1,11 @@
+{"file":"cardNum.png","frames":{
+"0":{"x":0,"y":26,"w":17,"h":25,"offX":2,"offY":1,"sourceW":20,"sourceH":26},
+"1":{"x":0,"y":79,"w":11,"h":24,"offX":4,"offY":2,"sourceW":20,"sourceH":26},
+"2":{"x":19,"y":27,"w":17,"h":25,"offX":2,"offY":1,"sourceW":20,"sourceH":26},
+"3":{"x":19,"y":54,"w":16,"h":25,"offX":3,"offY":1,"sourceW":20,"sourceH":26},
+"4":{"x":0,"y":0,"w":19,"h":24,"offX":0,"offY":2,"sourceW":20,"sourceH":26},
+"5":{"x":37,"y":54,"w":16,"h":24,"offX":3,"offY":2,"sourceW":20,"sourceH":26},
+"6":{"x":21,"y":0,"w":17,"h":25,"offX":2,"offY":1,"sourceW":20,"sourceH":26},
+"7":{"x":0,"y":53,"w":17,"h":24,"offX":2,"offY":2,"sourceW":20,"sourceH":26},
+"8":{"x":40,"y":0,"w":17,"h":25,"offX":2,"offY":1,"sourceW":20,"sourceH":26},
+"9":{"x":38,"y":27,"w":17,"h":25,"offX":2,"offY":1,"sourceW":20,"sourceH":26}}}
